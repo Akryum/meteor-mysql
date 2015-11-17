@@ -1,0 +1,46 @@
+{
+  "formatCodeOptions": {
+    "indentSize": 4,
+    "tabSize": 4,
+    "newLineCharacter": "\r\n",
+    "convertTabsToSpaces": true,
+    "insertSpaceAfterCommaDelimiter": true,
+    "insertSpaceAfterSemicolonInForStatements": true,
+    "insertSpaceBeforeAndAfterBinaryOperators": true,
+    "insertSpaceAfterKeywordsInControlFlowStatements": true,
+    "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+    "placeOpenBraceOnNewLineForFunctions": false,
+    "placeOpenBraceOnNewLineForControlBlocks": false
+  },
+  "buildOnSave": false,
+  "compileOnSave": false,
+  "scripts": {},
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "target": "ES5",
+    "noEmit": false,
+    "noEmitOnError": true,
+    "experimentalDecorators": false,
+    "outDir": "./compiled",
+    "charset": "UTF-8",
+    "noLib": false,
+    "diagnostics": true,
+    "declaration": true
+  },
+  "files": [
+    "./src/lib/LiveHelper.ts",
+    "./src/lib/Collection.ts",
+    "./src/lib/MeteorDatabase.ts",
+    "./src/lib/MeteorServerSide.ts",
+    "./src/index.ts"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./typings"
+  ]
+}

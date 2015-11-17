@@ -1,0 +1,49 @@
+{
+  "name": "meteor-mysql",
+  "version": "2.8.2",
+  "description": "This is a meteor package which brings strong and easy way in order to write apps using Mysql.",
+  "main": "./compiled/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-mysql-wrapper": "^2.8.2",
+    "fibers": "latest"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-typescript": "^2.8.2",
+    "gulp-zip": "^3.0.2",
+    "streamqueue": "^1.1.1",
+    "typescript": "^1.6.2",
+    "yargs": "^3.24.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodets/meteor-mysql.git"
+  },
+  "keywords": [
+    "meteor-mysql",
+    "node-mysql-wrapper",
+    "mysql-live",
+    "node-mysql",
+    "mysql",
+    "mysql-wrapper"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "compiled/"
+  ],
+  "author": "Makis Maropoulos <makis@ideopod.com> (https://github.com/nodets)",
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/nodets/meteor-mysql/blob/master/LICENSE"
+  }],
+  "bugs": {
+    "url": "https://github.com/nodets/meteor-mysql/issues"
+  },
+  "typings": "./compiled/index",
+  "homepage": "https://github.com/nodets/meteor-mysql#readme"
+}

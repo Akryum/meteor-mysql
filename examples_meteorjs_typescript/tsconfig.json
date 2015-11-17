@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"noImplicitAny": false,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": false,
+		"target": "ES5",
+		"noEmit": false,
+		"noEmitOnError": true,
+		"experimentalDecorators": false,
+		"outDir": "./compiled",
+		"charset": "UTF-8",
+		"noLib": false,
+		"diagnostics": true,
+		"declaration": false
+	},
+	"files": [
+		"simple-mysql.ts",
+		"./definitions/meteor.d.ts",
+		"./definitions/node-mysql-wrapper.d.ts"
+	]
+}
